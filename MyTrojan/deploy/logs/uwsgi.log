@@ -1,0 +1,1375 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 03:10:56 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55b82791c2b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b82791c2b0 pid: 24439 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 24439)
+spawned uWSGI worker 1 (pid: 24449, cores: 2)
+spawned uWSGI worker 2 (pid: 24450, cores: 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 03:11:12 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+DAMN ! worker 1 (pid: 24449) died :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 25332)
+...brutally killing workers...
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 11:12:51 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x5598b8501d70
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5598b8501d70 pid: 24439 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 24439)
+spawned uWSGI worker 1 (pid: 25391, cores: 2)
+spawned uWSGI worker 2 (pid: 25392, cores: 2)
+Sat Jun 13 11:15:12 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Jun 13 11:15:12 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Jun 13 11:15:12 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Jun 13 11:15:12 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 03:27:46 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x5593f17752c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5593f17752c0 pid: 3727 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3727)
+spawned uWSGI worker 1 (pid: 3747, cores: 2)
+spawned uWSGI worker 2 (pid: 3748, cores: 2)
+ERROR exception 77 Invalid HTTP_HOST header: '35.231.209.238'. You may need to add '35.231.209.238' to ALLOWED_HOSTS.
+WARNING log 228 Bad Request: /
+[pid: 3748|app: 0|req: 1/1] 104.199.239.81 () {46 vars in 840 bytes} [Sat Jun 13 11:45:32 2020] GET / => generated 59274 bytes in 470 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+ERROR exception 77 Invalid HTTP_HOST header: '35.231.209.238'. You may need to add '35.231.209.238' to ALLOWED_HOSTS.
+WARNING log 228 Bad Request: /
+[pid: 3748|app: 0|req: 2/2] 104.199.239.81 () {42 vars in 747 bytes} [Sat Jun 13 11:47:07 2020] GET / => generated 58959 bytes in 29 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 1)
+ERROR exception 77 Invalid HTTP_HOST header: '35.231.209.238'. You may need to add '35.231.209.238' to ALLOWED_HOSTS.
+WARNING log 228 Bad Request: /
+[pid: 3747|app: 0|req: 1/3] 104.199.239.81 () {42 vars in 747 bytes} [Sat Jun 13 11:47:11 2020] GET / => generated 58959 bytes in 81 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+ERROR exception 77 Invalid HTTP_HOST header: '35.231.209.238'. You may need to add '35.231.209.238' to ALLOWED_HOSTS.
+WARNING log 228 Bad Request: /
+[pid: 3748|app: 0|req: 3/4] 104.199.239.81 () {42 vars in 747 bytes} [Sat Jun 13 11:47:14 2020] GET / => generated 58959 bytes in 29 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 0)
+ERROR exception 77 Invalid HTTP_HOST header: '35.231.209.238'. You may need to add '35.231.209.238' to ALLOWED_HOSTS.
+WARNING log 228 Bad Request: /
+[pid: 3747|app: 0|req: 2/5] 104.199.239.81 () {42 vars in 747 bytes} [Sat Jun 13 11:47:16 2020] GET / => generated 58959 bytes in 31 msecs (HTTP/1.1 400) 2 headers in 86 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 03:48:02 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x563d9b72b2c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563d9b72b2c0 pid: 13680 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13680)
+spawned uWSGI worker 1 (pid: 13686, cores: 2)
+spawned uWSGI worker 2 (pid: 13687, cores: 2)
+[pid: 13687|app: 0|req: 1/1] 104.199.239.81 () {42 vars in 747 bytes} [Sat Jun 13 11:48:08 2020] GET / => generated 2297 bytes in 427 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 2/2] 104.199.239.81 () {42 vars in 776 bytes} [Sat Jun 13 11:48:12 2020] GET /user/login/ => generated 2711 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 1/3] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:48:26 2020] POST /user/login/ => generated 145 bytes in 1030 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 3/4] 104.199.239.81 () {46 vars in 907 bytes} [Sat Jun 13 11:48:34 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 4/5] 104.199.239.81 () {46 vars in 907 bytes} [Sat Jun 13 11:51:52 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 2/6] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:51:55 2020] POST /user/login/ => generated 145 bytes in 10 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 3/7] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:02 2020] POST /user/login/ => generated 145 bytes in 7 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 5/8] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:09 2020] POST /user/login/ => generated 145 bytes in 20 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13686|app: 0|req: 4/9] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:10 2020] POST /user/login/ => generated 145 bytes in 6 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 5/10] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:11 2020] POST /user/login/ => generated 145 bytes in 7 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13686|app: 0|req: 6/11] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:11 2020] POST /user/login/ => generated 145 bytes in 6 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 7/12] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:11 2020] POST /user/login/ => generated 145 bytes in 6 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 6/13] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:11 2020] POST /user/login/ => generated 145 bytes in 6 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 8/14] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:12 2020] POST /user/login/ => generated 145 bytes in 7 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 9/15] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:12 2020] POST /user/login/ => generated 145 bytes in 7 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 7/16] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:12 2020] POST /user/login/ => generated 145 bytes in 7 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+[pid: 13687|app: 0|req: 8/17] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:52:12 2020] POST /user/login/ => generated 145 bytes in 6 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 10/18] 104.199.239.81 () {46 vars in 907 bytes} [Sat Jun 13 11:58:09 2020] GET /user/login/ => generated 2711 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 13686|app: 0|req: 11/19] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:58:12 2020] POST /user/login/ => generated 145 bytes in 7 msecs (HTTP/1.1 500) 4 headers in 140 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 03:59:38 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x558e5a0b72b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558e5a0b72b0 pid: 19363 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19363)
+spawned uWSGI worker 1 (pid: 19373, cores: 2)
+spawned uWSGI worker 2 (pid: 19374, cores: 2)
+[pid: 19373|app: 0|req: 1/1] 104.199.239.81 () {46 vars in 907 bytes} [Sat Jun 13 11:59:45 2020] GET /user/login/ => generated 2711 bytes in 45 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 19373|app: 0|req: 2/2] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:59:48 2020] POST /user/login/ => generated 72 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 1/3] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 11:59:53 2020] POST /user/login/ => generated 72 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+WARNING log 228 Not Found: /user/login/2323
+[pid: 19374|app: 0|req: 2/4] 104.199.239.81 () {42 vars in 835 bytes} [Sat Jun 13 12:00:02 2020] GET /user/login/2323 => generated 3579 bytes in 28 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 3/5] 104.199.239.81 () {42 vars in 827 bytes} [Sat Jun 13 12:00:06 2020] GET /user/login/ => generated 2711 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 19373|app: 0|req: 3/6] 104.199.239.81 () {44 vars in 882 bytes} [Sat Jun 13 12:00:09 2020] GET /user/register/ => generated 3086 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 19374|app: 0|req: 4/7] 104.199.239.81 () {44 vars in 855 bytes} [Sat Jun 13 12:00:12 2020] GET /user/verify_email/2717083381@qq.com/ => generated 77 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 5/8] 104.199.239.81 () {44 vars in 839 bytes} [Sat Jun 13 12:00:17 2020] GET /user/verify_username/fanick/ => generated 69 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+ERROR log 228 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/cache.py", line 27, in _decorator
+    return method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/cache.py", line 131, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/client/default.py", line 511, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/uftp/MyTrojan/MyTrojan/apps/user/views.py", line 56, in post
+    login(request, user)
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/auth/__init__.py", line 107, in login
+    request.session.cycle_key()
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/base.py", line 310, in cycle_key
+    self.create()
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/base.py", line 162, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "/usr/local/lib/python3.6/dist-packages/django/core/cache/backends/base.py", line 211, in __contains__
+    return self.has_key(key)
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/cache.py", line 34, in _decorator
+    raise e.__cause__
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/client/default.py", line 509, in has_key
+    return client.exists(key) == 1
+  File "/usr/local/lib/python3.6/dist-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/usr/local/lib/python3.6/dist-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/usr/local/lib/python3.6/dist-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/usr/local/lib/python3.6/dist-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR:django.request:Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/cache.py", line 27, in _decorator
+    return method(self, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/cache.py", line 131, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/client/default.py", line 511, in has_key
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/dist-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/uftp/MyTrojan/MyTrojan/apps/user/views.py", line 56, in post
+    login(request, user)
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/auth/__init__.py", line 107, in login
+    request.session.cycle_key()
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/base.py", line 310, in cycle_key
+    self.create()
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/base.py", line 162, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/usr/local/lib/python3.6/dist-packages/django/contrib/sessions/backends/cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "/usr/local/lib/python3.6/dist-packages/django/core/cache/backends/base.py", line 211, in __contains__
+    return self.has_key(key)
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/cache.py", line 34, in _decorator
+    raise e.__cause__
+  File "/usr/local/lib/python3.6/dist-packages/django_redis/client/default.py", line 509, in has_key
+    return client.exists(key) == 1
+  File "/usr/local/lib/python3.6/dist-packages/redis/client.py", line 1581, in exists
+    return self.execute_command('EXISTS', *names)
+  File "/usr/local/lib/python3.6/dist-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/usr/local/lib/python3.6/dist-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/usr/local/lib/python3.6/dist-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+[pid: 19373|app: 0|req: 4/9] 104.199.239.81 () {52 vars in 1044 bytes} [Sat Jun 13 12:00:25 2020] POST /user/register/ => generated 16063 bytes in 337 msecs (HTTP/1.1 500) 5 headers in 172 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 6/10] 104.199.239.81 () {52 vars in 1044 bytes} [Sat Jun 13 12:00:37 2020] POST /user/register/ => generated 78 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 7/11] 104.199.239.81 () {52 vars in 1044 bytes} [Sat Jun 13 12:00:48 2020] POST /user/register/ => generated 78 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+[pid: 19374|app: 0|req: 8/12] 104.199.239.81 () {46 vars in 916 bytes} [Sat Jun 13 12:06:47 2020] GET /user/register/ => generated 3086 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 9/13] 104.199.239.81 () {44 vars in 879 bytes} [Sat Jun 13 12:06:50 2020] GET /user/login/ => generated 2711 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 19373|app: 0|req: 5/14] 104.199.239.81 () {52 vars in 1033 bytes} [Sat Jun 13 12:06:56 2020] POST /user/login/ => generated 63 bytes in 164 msecs (HTTP/1.1 200) 7 headers in 452 bytes (1 switches on core 0)
+[pid: 19374|app: 0|req: 10/15] 104.199.239.81 () {44 vars in 926 bytes} [Sat Jun 13 12:06:57 2020] GET /user/register/ => generated 0 bytes in 14 msecs (HTTP/1.1 302) 6 headers in 174 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 11/16] 104.199.239.81 () {44 vars in 918 bytes} [Sat Jun 13 12:06:58 2020] GET /user/home/ => generated 13935 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 19374|app: 0|req: 12/17] 104.199.239.81 () {44 vars in 917 bytes} [Sat Jun 13 12:07:11 2020] GET /user/home/ => generated 13935 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 19373|app: 0|req: 6/18] 104.199.239.81 () {44 vars in 921 bytes} [Sat Jun 13 12:07:13 2020] GET /user/logout/ => generated 0 bytes in 9 msecs (HTTP/1.1 302) 7 headers in 259 bytes (1 switches on core 1)
+[pid: 19374|app: 0|req: 13/19] 104.199.239.81 () {44 vars in 873 bytes} [Sat Jun 13 12:07:13 2020] GET /user/home/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 6 headers in 175 bytes (1 switches on core 0)
+[pid: 19373|app: 0|req: 7/20] 104.199.239.81 () {44 vars in 875 bytes} [Sat Jun 13 12:07:14 2020] GET /user/login/ => generated 2711 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 19373|app: 0|req: 8/21] 104.199.239.81 () {44 vars in 882 bytes} [Sat Jun 13 12:07:16 2020] GET /user/register/ => generated 3086 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 04:16:39 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x5561c66452b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5561c66452b0 pid: 27911 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27911)
+spawned uWSGI worker 1 (pid: 27919, cores: 2)
+spawned uWSGI worker 2 (pid: 27920, cores: 2)
+[pid: 27920|app: 0|req: 1/1] 104.199.239.81 () {46 vars in 913 bytes} [Sat Jun 13 12:16:53 2020] GET /user/register/ => generated 3086 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+WARNING log 228 Not Found: /user/register/22
+[pid: 27920|app: 0|req: 2/2] 104.199.239.81 () {42 vars in 837 bytes} [Sat Jun 13 12:16:58 2020] GET /user/register/22 => generated 3582 bytes in 21 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 04:17:23 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55e9125952b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e9125952b0 pid: 28270 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28270)
+spawned uWSGI worker 1 (pid: 28272, cores: 2)
+spawned uWSGI worker 2 (pid: 28273, cores: 2)
+[pid: 28273|app: 0|req: 1/1] 104.199.239.81 () {44 vars in 868 bytes} [Sat Jun 13 12:17:26 2020] GET /user/register/22 => generated 179 bytes in 36 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 28273|app: 0|req: 2/2] 104.199.239.81 () {44 vars in 868 bytes} [Sat Jun 13 12:17:28 2020] GET /user/register/22 => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 28272|app: 0|req: 1/3] 104.199.239.81 () {44 vars in 868 bytes} [Sat Jun 13 12:17:31 2020] GET /user/register/22 => generated 179 bytes in 36 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 28272|app: 0|req: 2/4] 104.199.239.81 () {44 vars in 868 bytes} [Sat Jun 13 12:17:33 2020] GET /user/register/22 => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 04:18:08 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x563399ac12b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563399ac12b0 pid: 28654 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 28654)
+spawned uWSGI worker 1 (pid: 28656, cores: 2)
+spawned uWSGI worker 2 (pid: 28657, cores: 2)
+[pid: 28656|app: 0|req: 1/1] 104.199.239.81 () {44 vars in 868 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/22 => generated 3836 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 2/2] 104.199.239.81 () {42 vars in 778 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 1/3] 104.199.239.81 () {42 vars in 777 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/js/404/bind_polyfill.js => generated 3836 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 3/4] 104.199.239.81 () {42 vars in 759 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/js/404/grid.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 2/5] 104.199.239.81 () {42 vars in 787 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/js/404/animframe_polyfill.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 3/6] 104.199.239.81 () {42 vars in 787 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 4/7] 104.199.239.81 () {42 vars in 795 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 4/8] 104.199.239.81 () {42 vars in 777 bytes} [Sat Jun 13 12:18:11 2020] GET /user/register/js/404/html_actuator.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 5/9] 104.199.239.81 () {42 vars in 759 bytes} [Sat Jun 13 12:18:12 2020] GET /user/register/js/404/tile.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 6/10] 104.199.239.81 () {42 vars in 793 bytes} [Sat Jun 13 12:18:12 2020] GET /user/register/js/404/local_storage_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 7/11] 104.199.239.81 () {42 vars in 775 bytes} [Sat Jun 13 12:18:12 2020] GET /user/register/js/404/game_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 5/12] 104.199.239.81 () {42 vars in 773 bytes} [Sat Jun 13 12:18:12 2020] GET /user/register/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 8/13] 104.199.239.81 () {46 vars in 852 bytes} [Sat Jun 13 12:18:13 2020] GET /user/register/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 9/14] 104.199.239.81 () {42 vars in 778 bytes} [Sat Jun 13 12:18:15 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 6/15] 104.199.239.81 () {42 vars in 865 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 7/16] 104.199.239.81 () {42 vars in 808 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 8/17] 104.199.239.81 () {42 vars in 817 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 9/18] 104.199.239.81 () {42 vars in 825 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 10/19] 104.199.239.81 () {42 vars in 807 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/js/404/bind_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 11/21] 104.199.239.81 () {42 vars in 817 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/js/404/animframe_polyfill.js => generated 3836 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 11/21] 104.199.239.81 () {42 vars in 807 bytes} [Sat Jun 13 12:19:03 2020] GET /user/register/css/404/js/404/html_actuator.js => generated 3836 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 12/22] 104.199.239.81 () {42 vars in 789 bytes} [Sat Jun 13 12:19:04 2020] GET /user/register/css/404/js/404/grid.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 14/23] 104.199.239.81 () {42 vars in 789 bytes} [Sat Jun 13 12:19:04 2020] GET /user/register/css/404/js/404/tile.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 14/24] 104.199.239.81 () {42 vars in 823 bytes} [Sat Jun 13 12:19:04 2020] GET /user/register/css/404/js/404/local_storage_manager.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 12/25] 104.199.239.81 () {42 vars in 803 bytes} [Sat Jun 13 12:19:04 2020] GET /user/register/css/404/js/404/application.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 12/26] 104.199.239.81 () {42 vars in 805 bytes} [Sat Jun 13 12:19:04 2020] GET /user/register/css/404/js/404/game_manager.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 15/27] 104.199.239.81 () {42 vars in 829 bytes} [Sat Jun 13 12:19:04 2020] GET /user/register/css/404/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 13/28] 104.199.239.81 () {42 vars in 865 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 16/29] 104.199.239.81 () {42 vars in 808 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 14/30] 104.199.239.81 () {42 vars in 825 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 17/31] 104.199.239.81 () {42 vars in 807 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/js/404/bind_polyfill.js => generated 3836 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 18/32] 104.199.239.81 () {42 vars in 817 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 16/34] 104.199.239.81 () {42 vars in 807 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/js/404/html_actuator.js => generated 3836 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 16/34] 104.199.239.81 () {42 vars in 817 bytes} [Sat Jun 13 12:19:18 2020] GET /user/register/css/404/js/404/animframe_polyfill.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 17/35] 104.199.239.81 () {42 vars in 789 bytes} [Sat Jun 13 12:19:19 2020] GET /user/register/css/404/js/404/grid.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 19/36] 104.199.239.81 () {42 vars in 789 bytes} [Sat Jun 13 12:19:19 2020] GET /user/register/css/404/js/404/tile.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 18/37] 104.199.239.81 () {42 vars in 823 bytes} [Sat Jun 13 12:19:19 2020] GET /user/register/css/404/js/404/local_storage_manager.js => generated 3836 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 21/38] 104.199.239.81 () {42 vars in 805 bytes} [Sat Jun 13 12:19:19 2020] GET /user/register/css/404/js/404/game_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 21/39] 104.199.239.81 () {42 vars in 803 bytes} [Sat Jun 13 12:19:19 2020] GET /user/register/css/404/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 19/40] 104.199.239.81 () {42 vars in 829 bytes} [Sat Jun 13 12:19:19 2020] GET /user/register/css/404/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 22/41] 104.199.239.81 () {42 vars in 808 bytes} [Sat Jun 13 12:19:28 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 20/42] 104.199.239.81 () {46 vars in 918 bytes} [Sat Jun 13 12:19:43 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 24/43] 104.199.239.81 () {46 vars in 861 bytes} [Sat Jun 13 12:19:43 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 24/44] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:19:43 2020] GET /user/register/css/404/js/404/bind_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 22/46] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/tile.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 22/46] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/grid.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 25/47] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/animframe_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 23/48] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 24/49] 104.199.239.81 () {46 vars in 878 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 26/50] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/html_actuator.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 25/51] 104.199.239.81 () {46 vars in 876 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/local_storage_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 27/52] 104.199.239.81 () {46 vars in 858 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/game_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 26/53] 104.199.239.81 () {46 vars in 856 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 28/54] 104.199.239.81 () {46 vars in 882 bytes} [Sat Jun 13 12:19:44 2020] GET /user/register/css/404/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 29/55] 104.199.239.81 () {46 vars in 918 bytes} [Sat Jun 13 12:19:50 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 28/56] 104.199.239.81 () {46 vars in 861 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 28/57] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/bind_polyfill.js => generated 3836 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 30/58] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 31/59] 104.199.239.81 () {46 vars in 878 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 30/60] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/animframe_polyfill.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 30/61] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/html_actuator.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 33/63] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/grid.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 33/64] 104.199.239.81 () {46 vars in 876 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/local_storage_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 31/64] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/tile.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 32/65] 104.199.239.81 () {46 vars in 858 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/game_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 34/66] 104.199.239.81 () {46 vars in 856 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 35/67] 104.199.239.81 () {46 vars in 882 bytes} [Sat Jun 13 12:19:51 2020] GET /user/register/css/404/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 33/68] 104.199.239.81 () {46 vars in 918 bytes} [Sat Jun 13 12:19:59 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 36/69] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 37/70] 104.199.239.81 () {46 vars in 861 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 34/71] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/bind_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 38/72] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/animframe_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 35/73] 104.199.239.81 () {46 vars in 878 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 36/74] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/html_actuator.js => generated 3836 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 39/75] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/grid.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 40/76] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/tile.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 41/77] 104.199.239.81 () {46 vars in 856 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 38/78] 104.199.239.81 () {46 vars in 858 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/game_manager.js => generated 3836 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 38/79] 104.199.239.81 () {46 vars in 876 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/js/404/local_storage_manager.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 42/80] 104.199.239.81 () {46 vars in 882 bytes} [Sat Jun 13 12:20:00 2020] GET /user/register/css/404/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 43/81] 104.199.239.81 () {46 vars in 918 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 44/82] 104.199.239.81 () {46 vars in 861 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/css/404/main.css => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 39/83] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/bind_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 45/84] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/grid.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 40/85] 104.199.239.81 () {46 vars in 878 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/keyboard_input_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 46/86] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 41/87] 104.199.239.81 () {46 vars in 870 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/animframe_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 47/88] 104.199.239.81 () {46 vars in 860 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/html_actuator.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 42/89] 104.199.239.81 () {46 vars in 842 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/tile.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 43/90] 104.199.239.81 () {46 vars in 876 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/local_storage_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 44/91] 104.199.239.81 () {46 vars in 858 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/game_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 48/92] 104.199.239.81 () {46 vars in 856 bytes} [Sat Jun 13 12:21:40 2020] GET /user/register/css/404/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 49/93] 104.199.239.81 () {46 vars in 882 bytes} [Sat Jun 13 12:21:41 2020] GET /user/register/css/404/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 45/94] 104.199.239.81 () {46 vars in 890 bytes} [Sat Jun 13 12:21:54 2020] GET /user/register/22 => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 47/95] 104.199.239.81 () {46 vars in 831 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/css/404/main.css => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 48/96] 104.199.239.81 () {46 vars in 840 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/classlist_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 51/97] 104.199.239.81 () {46 vars in 830 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/html_actuator.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 48/98] 104.199.239.81 () {46 vars in 840 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/animframe_polyfill.js => generated 3836 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 52/99] 104.199.239.81 () {46 vars in 848 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/keyboard_input_manager.js => generated 3836 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 52/100] 104.199.239.81 () {46 vars in 830 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/bind_polyfill.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 49/101] 104.199.239.81 () {46 vars in 812 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/grid.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 50/102] 104.199.239.81 () {46 vars in 812 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/tile.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 53/103] 104.199.239.81 () {46 vars in 846 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/local_storage_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28656|app: 0|req: 54/104] 104.199.239.81 () {46 vars in 826 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/application.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28657|app: 0|req: 51/105] 104.199.239.81 () {46 vars in 828 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/js/404/game_manager.js => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 28656|app: 0|req: 55/106] 104.199.239.81 () {46 vars in 852 bytes} [Sat Jun 13 12:21:55 2020] GET /user/register/meta/favicon.ico => generated 3836 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 28657|app: 0|req: 52/107] 125.164.245.150 () {32 vars in 462 bytes} [Sat Jun 13 12:25:44 2020] GET / => generated 2297 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 04:37:35 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55597c8e52b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55597c8e52b0 pid: 5338 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5338)
+spawned uWSGI worker 1 (pid: 5346, cores: 2)
+spawned uWSGI worker 2 (pid: 5347, cores: 2)
+[pid: 5347|app: 0|req: 1/1] 104.199.239.81 () {46 vars in 890 bytes} [Sat Jun 13 12:37:40 2020] GET /user/register/22 => generated 3939 bytes in 39 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 5346|app: 0|req: 1/2] 104.199.239.81 () {46 vars in 868 bytes} [Sat Jun 13 12:38:33 2020] GET /user/ => generated 3939 bytes in 51 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 5346|app: 0|req: 2/3] 104.199.239.81 () {46 vars in 858 bytes} [Sat Jun 13 12:38:38 2020] GET / => generated 2297 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 2/4] 104.199.239.81 () {46 vars in 858 bytes} [Sat Jun 13 12:38:42 2020] GET / => generated 2297 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 5346|app: 0|req: 3/5] 104.199.239.81 () {44 vars in 865 bytes} [Sat Jun 13 12:38:54 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 5347|app: 0|req: 3/6] 104.199.239.81 () {44 vars in 882 bytes} [Sat Jun 13 12:38:56 2020] GET /user/register/ => generated 3086 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 5346|app: 0|req: 4/7] 162.158.243.172 () {56 vars in 986 bytes} [Sat Jun 13 12:40:10 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 4/8] 162.158.243.160 () {58 vars in 989 bytes} [Sat Jun 13 12:40:12 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 5/9] 127.0.0.1 () {50 vars in 893 bytes} [Sat Jun 13 13:12:34 2020] GET / => generated 2297 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 5347|app: 0|req: 6/10] 127.0.0.1 () {48 vars in 808 bytes} [Sat Jun 13 13:12:36 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 7/11] 127.0.0.1 () {52 vars in 957 bytes} [Sat Jun 13 13:12:38 2020] GET /user/login/ => generated 2711 bytes in 33 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 5346|app: 0|req: 5/12] 127.0.0.1 () {48 vars in 895 bytes} [Sat Jun 13 13:12:39 2020] GET /favicon.ico => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 5346|app: 0|req: 6/13] 127.0.0.1 () {58 vars in 1166 bytes} [Sat Jun 13 13:12:54 2020] POST /user/login/ => generated 63 bytes in 206 msecs (HTTP/1.1 200) 7 headers in 452 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 8/14] 127.0.0.1 () {40 vars in 667 bytes} [Sat Jun 13 13:12:55 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 9/15] 127.0.0.1 () {52 vars in 1066 bytes} [Sat Jun 13 13:12:55 2020] GET / => generated 2697 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 5347|app: 0|req: 10/16] 127.0.0.1 () {48 vars in 928 bytes} [Sat Jun 13 13:12:56 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 11/17] 127.0.0.1 () {52 vars in 1075 bytes} [Sat Jun 13 13:12:58 2020] GET /user/home/ => generated 13927 bytes in 87 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 5347|app: 0|req: 12/18] 127.0.0.1 () {48 vars in 938 bytes} [Sat Jun 13 13:13:00 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 5347|app: 0|req: 13/19] 127.0.0.1 () {54 vars in 1106 bytes} [Sat Jun 13 13:27:11 2020] GET /user/home/ => generated 13953 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 5347|app: 0|req: 14/20] 127.0.0.1 () {52 vars in 991 bytes} [Sat Jun 13 13:27:12 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 05:28:08 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x56506be0a240
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x56506be0a240 pid: 398 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 398)
+spawned uWSGI worker 1 (pid: 418, cores: 2)
+spawned uWSGI worker 2 (pid: 419, cores: 2)
+[pid: 418|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1106 bytes} [Sat Jun 13 13:28:29 2020] GET /user/home/ => generated 13955 bytes in 478 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 418|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 991 bytes} [Sat Jun 13 13:28:30 2020] GET /favicon.ico => generated 3939 bytes in 37 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 418|app: 0|req: 3/3] 127.0.0.1 () {56 vars in 1133 bytes} [Sat Jun 13 13:28:37 2020] GET /user/get_user_data/ => generated 159 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+[pid: 419|app: 0|req: 1/4] 127.0.0.1 () {52 vars in 1080 bytes} [Sat Jun 13 13:28:47 2020] GET /user/get_user_data/ => generated 159 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+[pid: 418|app: 0|req: 4/5] 127.0.0.1 () {54 vars in 1106 bytes} [Sat Jun 13 13:29:53 2020] GET /user/home/ => generated 13955 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 419|app: 0|req: 2/6] 127.0.0.1 () {52 vars in 991 bytes} [Sat Jun 13 13:29:54 2020] GET /favicon.ico => generated 3939 bytes in 48 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 419|app: 0|req: 3/7] 127.0.0.1 () {52 vars in 1080 bytes} [Sat Jun 13 13:30:37 2020] GET /user/get_user_data/ => generated 159 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+[pid: 418|app: 0|req: 5/8] 127.0.0.1 () {56 vars in 1137 bytes} [Sat Jun 13 13:37:13 2020] GET /blog/expressvpn-rolls-out-apps-and-browser-extensions-in-over-a-dozen-languages/?redir=www.exp2redir2.com => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 419|app: 0|req: 4/9] 127.0.0.1 () {56 vars in 972 bytes} [Sat Jun 13 13:37:23 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 418|app: 0|req: 6/10] 127.0.0.1 () {52 vars in 809 bytes} [Sat Jun 13 13:39:10 2020] GET / => generated 2297 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 419|app: 0|req: 5/11] 127.0.0.1 () {52 vars in 814 bytes} [Sat Jun 13 13:39:18 2020] GET /cn => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 418|app: 0|req: 7/12] 127.0.0.1 () {52 vars in 874 bytes} [Sat Jun 13 13:39:39 2020] GET /support/troubleshooting => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 419|app: 0|req: 6/13] 127.0.0.1 () {52 vars in 880 bytes} [Sat Jun 13 13:40:07 2020] GET /support/troubleshooting/china-status => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 419|app: 0|req: 7/14] 127.0.0.1 () {52 vars in 1278 bytes} [Sat Jun 13 13:40:10 2020] GET /support/troubleshooting/china-status/?utm_campaign=china_get_update_ios&utm_content=download_latest_app&utm_medium=apps&utm_term=v7.3.7_p_CN_1&utm_source=rotating_message_v3_ios&redir=www.ciibdes.com&redir_t=bc5c74190c2766c97a0b7876855fee2f => generated 3939 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 418|app: 0|req: 8/15] 127.0.0.1 () {56 vars in 951 bytes} [Sat Jun 13 13:40:12 2020] GET /vpn-software/vpn-windows => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 419|app: 0|req: 8/16] 127.0.0.1 () {64 vars in 1134 bytes} [Sat Jun 13 14:19:20 2020] GET / => generated 2297 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 06:58:49 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x5576775f6220
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x5576775f6220 pid: 11348 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11348)
+spawned uWSGI worker 1 (pid: 11374, cores: 2)
+spawned uWSGI worker 2 (pid: 11375, cores: 2)
+[pid: 11375|app: 0|req: 1/1] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 14:59:02 2020] GET /user/home/ => generated 14053 bytes in 116 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 11374|app: 0|req: 1/2] 127.0.0.1 () {68 vars in 1262 bytes} [Sat Jun 13 14:59:04 2020] GET /favicon.ico => generated 3939 bytes in 62 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 11375|app: 0|req: 2/3] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 14:59:18 2020] GET /user/home/ => generated 14053 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 11375|app: 0|req: 3/4] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 14:59:28 2020] GET /user/home/ => generated 14053 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 07:01:18 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x5559e745e220
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5559e745e220 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 12582, cores: 2)
+spawned uWSGI worker 2 (pid: 12583, cores: 2)
+[pid: 12583|app: 0|req: 1/1] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 15:01:27 2020] GET /user/home/ => generated 14044 bytes in 66 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 1/2] 127.0.0.1 () {68 vars in 1336 bytes} [Sat Jun 13 15:04:32 2020] GET / => generated 2697 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 2/3] 127.0.0.1 () {64 vars in 1367 bytes} [Sat Jun 13 15:04:44 2020] GET / => generated 2297 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 2/4] 127.0.0.1 () {62 vars in 1213 bytes} [Sat Jun 13 15:08:42 2020] GET / => generated 2297 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 3/5] 127.0.0.1 () {58 vars in 1183 bytes} [Sat Jun 13 15:09:05 2020] GET /user/login/ => generated 2711 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 4/6] 127.0.0.1 () {58 vars in 1183 bytes} [Sat Jun 13 15:09:06 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 3/7] 127.0.0.1 () {58 vars in 1270 bytes} [Sat Jun 13 15:09:10 2020] GET /user/login/ => generated 2711 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 4/8] 127.0.0.1 () {62 vars in 1343 bytes} [Sat Jun 13 15:09:43 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 5/9] 127.0.0.1 () {62 vars in 1218 bytes} [Sat Jun 13 15:09:59 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 5/10] 127.0.0.1 () {64 vars in 1368 bytes} [Sat Jun 13 15:12:06 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 6/11] 127.0.0.1 () {64 vars in 1382 bytes} [Sat Jun 13 15:12:09 2020] GET /favicon.ico => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 7/12] 127.0.0.1 () {68 vars in 1499 bytes} [Sat Jun 13 15:12:25 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 8/13] 127.0.0.1 () {66 vars in 1284 bytes} [Sat Jun 13 15:13:22 2020] GET / => generated 2697 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 6/14] 127.0.0.1 () {68 vars in 1346 bytes} [Sat Jun 13 15:13:26 2020] GET /user/home/ => generated 13871 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 9/15] 127.0.0.1 () {56 vars in 912 bytes} [Sat Jun 13 15:15:54 2020] GET / => generated 2297 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 10/16] 127.0.0.1 () {56 vars in 982 bytes} [Sat Jun 13 15:18:50 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 7/17] 127.0.0.1 () {60 vars in 1106 bytes} [Sat Jun 13 15:18:56 2020] GET /user/login/ => generated 2711 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 8/18] 127.0.0.1 () {68 vars in 1386 bytes} [Sat Jun 13 15:19:16 2020] POST /user/login/ => generated 72 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 11/19] 127.0.0.1 () {60 vars in 1199 bytes} [Sat Jun 13 15:19:20 2020] GET /user/register/ => generated 3080 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 12/20] 127.0.0.1 () {66 vars in 1434 bytes} [Sat Jun 13 15:21:29 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 9/21] 127.0.0.1 () {68 vars in 1504 bytes} [Sat Jun 13 15:21:39 2020] GET /user/register/ => generated 3080 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 13/22] 127.0.0.1 () {60 vars in 1033 bytes} [Sat Jun 13 15:23:11 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 10/23] 127.0.0.1 () {66 vars in 1189 bytes} [Sat Jun 13 15:23:44 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 11/24] 127.0.0.1 () {66 vars in 1282 bytes} [Sat Jun 13 15:23:48 2020] GET /user/register/ => generated 3080 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 14/25] 127.0.0.1 () {60 vars in 1180 bytes} [Sat Jun 13 15:24:01 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 15/26] 127.0.0.1 () {54 vars in 1122 bytes} [Sat Jun 13 15:24:01 2020] GET /user/register => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 153 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 16/27] 127.0.0.1 () {62 vars in 1275 bytes} [Sat Jun 13 15:24:03 2020] GET /user/register => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 153 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 17/28] 127.0.0.1 () {60 vars in 1202 bytes} [Sat Jun 13 15:24:04 2020] GET /user/login => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 150 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 12/29] 127.0.0.1 () {62 vars in 1249 bytes} [Sat Jun 13 15:24:05 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 13/30] 127.0.0.1 () {62 vars in 1271 bytes} [Sat Jun 13 15:24:05 2020] GET /user/login/ => generated 2711 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 18/31] 127.0.0.1 () {62 vars in 1277 bytes} [Sat Jun 13 15:24:07 2020] GET /user/register/ => generated 3080 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 19/32] 127.0.0.1 () {62 vars in 1247 bytes} [Sat Jun 13 15:24:21 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 14/33] 127.0.0.1 () {60 vars in 1184 bytes} [Sat Jun 13 15:24:30 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 15/34] 127.0.0.1 () {60 vars in 1184 bytes} [Sat Jun 13 15:24:44 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 20/35] 127.0.0.1 () {62 vars in 1272 bytes} [Sat Jun 13 15:24:59 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 16/36] 127.0.0.1 () {58 vars in 1188 bytes} [Sat Jun 13 15:25:18 2020] GET /user/login/ => generated 2711 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 21/37] 127.0.0.1 () {56 vars in 938 bytes} [Sat Jun 13 15:30:43 2020] GET /user/login/ => generated 2711 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 17/38] 127.0.0.1 () {56 vars in 942 bytes} [Sat Jun 13 15:30:56 2020] GET /user/register => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 153 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 22/39] 127.0.0.1 () {60 vars in 946 bytes} [Sat Jun 13 15:51:12 2020] GET / => generated 2297 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 23/40] 127.0.0.1 () {60 vars in 946 bytes} [Sat Jun 13 15:51:22 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 24/41] 127.0.0.1 () {60 vars in 964 bytes} [Sat Jun 13 15:54:17 2020] GET /user/login => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 150 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 18/42] 127.0.0.1 () {62 vars in 1033 bytes} [Sat Jun 13 15:54:22 2020] GET /user/login/ => generated 2711 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 19/43] 127.0.0.1 () {60 vars in 972 bytes} [Sat Jun 13 15:54:37 2020] GET /user/register => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 153 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 25/44] 127.0.0.1 () {62 vars in 1041 bytes} [Sat Jun 13 15:54:45 2020] GET /user/register/ => generated 3080 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 26/45] 127.0.0.1 () {56 vars in 1082 bytes} [Sat Jun 13 18:56:38 2020] GET /blog/expressvpn-rolls-out-apps-and-browser-extensions-in-over-a-dozen-languages/?redir=www.exp2redir2.com => generated 3939 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 27/46] 127.0.0.1 () {56 vars in 895 bytes} [Sat Jun 13 18:56:41 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 28/47] 127.0.0.1 () {52 vars in 738 bytes} [Sat Jun 13 18:56:45 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 29/48] 127.0.0.1 () {52 vars in 810 bytes} [Sat Jun 13 18:56:47 2020] GET /cn => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 20/49] 127.0.0.1 () {52 vars in 845 bytes} [Sat Jun 13 18:56:53 2020] GET /support/troubleshooting => generated 3939 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 21/50] 127.0.0.1 () {52 vars in 843 bytes} [Sat Jun 13 18:56:59 2020] GET /support/troubleshooting/china-status => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 30/51] 127.0.0.1 () {52 vars in 1288 bytes} [Sat Jun 13 19:18:35 2020] GET /support/troubleshooting/china-status/?utm_campaign=china_get_update_ios&utm_content=download_latest_app&utm_medium=apps&utm_term=v7.3.7_p_CN_1&utm_source=rotating_message_v3_ios&redir=www.ciibdes.com&redir_t=bc5c74190c2766c97a0b7876855fee2f => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 31/52] 127.0.0.1 () {56 vars in 919 bytes} [Sat Jun 13 19:18:45 2020] GET /vpn-software/vpn-windows => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 22/53] 127.0.0.1 () {54 vars in 829 bytes} [Sat Jun 13 20:13:25 2020] GET / => generated 2297 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 32/54] 127.0.0.1 () {54 vars in 886 bytes} [Sat Jun 13 20:20:08 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 33/55] 127.0.0.1 () {52 vars in 719 bytes} [Sat Jun 13 21:00:01 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 34/56] 127.0.0.1 () {52 vars in 840 bytes} [Sat Jun 13 21:00:01 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 23/57] 127.0.0.1 () {52 vars in 840 bytes} [Sat Jun 13 21:00:02 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 24/58] 127.0.0.1 () {52 vars in 840 bytes} [Sat Jun 13 21:00:02 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 35/59] 127.0.0.1 () {66 vars in 1284 bytes} [Sat Jun 13 21:03:52 2020] GET / => generated 2697 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 36/60] 127.0.0.1 () {64 vars in 1199 bytes} [Sat Jun 13 21:03:54 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 25/61] 127.0.0.1 () {68 vars in 1346 bytes} [Sat Jun 13 21:04:06 2020] GET /user/home/ => generated 13871 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 37/62] 127.0.0.1 () {56 vars in 1167 bytes} [Sat Jun 13 21:06:37 2020] GET /blog/expressvpn-rolls-out-apps-and-browser-extensions-in-over-a-dozen-languages/?redir=www.exp2redir2.com => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 26/63] 127.0.0.1 () {56 vars in 984 bytes} [Sat Jun 13 21:07:15 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 27/64] 127.0.0.1 () {52 vars in 812 bytes} [Sat Jun 13 21:07:20 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 28/65] 127.0.0.1 () {52 vars in 830 bytes} [Sat Jun 13 21:07:23 2020] GET /cn => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 38/66] 127.0.0.1 () {52 vars in 866 bytes} [Sat Jun 13 21:07:26 2020] GET /support/troubleshooting => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 39/67] 127.0.0.1 () {52 vars in 880 bytes} [Sat Jun 13 21:07:31 2020] GET /support/troubleshooting/china-status => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 29/68] 127.0.0.1 () {52 vars in 1288 bytes} [Sat Jun 13 21:07:34 2020] GET /support/troubleshooting/china-status/?utm_campaign=china_get_update_ios&utm_content=download_latest_app&utm_medium=apps&utm_term=v7.3.7_p_CN_1&utm_source=rotating_message_v3_ios&redir=www.ciibdes.com&redir_t=bc5c74190c2766c97a0b7876855fee2f => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 30/69] 127.0.0.1 () {56 vars in 984 bytes} [Sat Jun 13 21:07:43 2020] GET /vpn-software/vpn-windows => generated 3939 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 31/70] 127.0.0.1 () {52 vars in 900 bytes} [Sat Jun 13 22:04:33 2020] GET /solr/admin/info/system?wt=json => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 32/71] 127.0.0.1 () {54 vars in 1019 bytes} [Sat Jun 13 22:06:28 2020] GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 40/72] 127.0.0.1 () {52 vars in 900 bytes} [Sat Jun 13 22:06:33 2020] GET /?XDEBUG_SESSION_START=phpstorm => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 12582|app: 0|req: 33/73] 127.0.0.1 () {52 vars in 1140 bytes} [Sat Jun 13 22:11:32 2020] GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 12583|app: 0|req: 41/74] 127.0.0.1 () {70 vars in 1377 bytes} [Sat Jun 13 22:31:58 2020] GET /user/home/ => generated 13871 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 12582|app: 0|req: 34/75] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 22:34:16 2020] GET /user/home/ => generated 13871 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 12583|app: 0|req: 42/76] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 22:36:14 2020] GET /user/home/ => generated 13871 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 12582)...
+Gracefully killing worker 2 (pid: 12583)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 22:38:31 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x562d4f979d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562d4f979d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 30411, cores: 2)
+spawned uWSGI worker 2 (pid: 30412, cores: 2)
+[pid: 30411|app: 0|req: 1/1] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 22:38:33 2020] GET /user/home/ => generated 13873 bytes in 72 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 30412|app: 0|req: 1/2] 127.0.0.1 () {72 vars in 1404 bytes} [Sat Jun 13 22:38:37 2020] GET /user/get_user_data/ => generated 167 bytes in 45 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 30411)...
+Gracefully killing worker 2 (pid: 30412)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 22:40:02 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x564f19f84d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564f19f84d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 31183, cores: 2)
+spawned uWSGI worker 2 (pid: 31184, cores: 2)
+[pid: 31184|app: 0|req: 1/1] 127.0.0.1 () {72 vars in 1399 bytes} [Sat Jun 13 22:40:08 2020] GET /user/home/ => generated 13873 bytes in 61 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 2/2] 127.0.0.1 () {68 vars in 1351 bytes} [Sat Jun 13 22:43:45 2020] GET /user/get_user_data/ => generated 167 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 3/3] 127.0.0.1 () {68 vars in 1336 bytes} [Sat Jun 13 22:43:48 2020] GET / => generated 2697 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 4/4] 127.0.0.1 () {70 vars in 1367 bytes} [Sat Jun 13 22:45:14 2020] GET / => generated 2697 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 5/5] 127.0.0.1 () {70 vars in 1367 bytes} [Sat Jun 13 22:45:18 2020] GET / => generated 2697 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 6/6] 127.0.0.1 () {70 vars in 1367 bytes} [Sat Jun 13 22:45:25 2020] GET / => generated 2697 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 7/7] 127.0.0.1 () {70 vars in 1307 bytes} [Sat Jun 13 22:45:27 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 1/8] 127.0.0.1 () {68 vars in 1346 bytes} [Sat Jun 13 22:45:56 2020] GET /user/home/ => generated 13873 bytes in 64 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 8/9] 127.0.0.1 () {68 vars in 1252 bytes} [Sat Jun 13 22:46:01 2020] GET /favicon.ico => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 31183|app: 0|req: 2/10] 127.0.0.1 () {68 vars in 1356 bytes} [Sat Jun 13 22:46:04 2020] GET /user/home/ => generated 13873 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 31183|app: 0|req: 3/11] 127.0.0.1 () {70 vars in 1307 bytes} [Sat Jun 13 22:46:29 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 4/12] 127.0.0.1 () {72 vars in 1370 bytes} [Sat Jun 13 22:47:10 2020] GET /user/register/ => generated 3080 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 31183|app: 0|req: 5/13] 127.0.0.1 () {74 vars in 1477 bytes} [Sat Jun 13 22:47:52 2020] GET /user/register/ => generated 3080 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 9/14] 127.0.0.1 () {54 vars in 1020 bytes} [Sat Jun 13 22:48:16 2020] GET /user/register/ => generated 3080 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 10/15] 127.0.0.1 () {66 vars in 1284 bytes} [Sat Jun 13 22:48:36 2020] GET / => generated 2697 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31183|app: 0|req: 6/16] 127.0.0.1 () {54 vars in 1015 bytes} [Sat Jun 13 22:48:37 2020] GET /user/login/ => generated 2711 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 11/17] 127.0.0.1 () {70 vars in 1436 bytes} [Sat Jun 13 22:48:50 2020] GET /user/verify_email/123456789@qq.com/ => generated 76 bytes in 126 msecs (HTTP/1.1 200) 4 headers in 127 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 12/18] 127.0.0.1 () {78 vars in 1622 bytes} [Sat Jun 13 22:49:29 2020] POST /user/register/ => generated 151 bytes in 47 msecs (HTTP/1.1 200) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 13/19] 127.0.0.1 () {60 vars in 1155 bytes} [Sat Jun 13 22:49:47 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 14/20] 127.0.0.1 () {78 vars in 1622 bytes} [Sat Jun 13 22:49:53 2020] POST /user/register/ => generated 151 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 15/21] 127.0.0.1 () {60 vars in 1198 bytes} [Sat Jun 13 22:50:03 2020] GET /user/register/ => generated 3080 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 7/22] 127.0.0.1 () {60 vars in 1274 bytes} [Sat Jun 13 22:50:05 2020] GET /user/register/ => generated 3080 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 8/23] 127.0.0.1 () {66 vars in 1213 bytes} [Sat Jun 13 22:50:27 2020] GET / => generated 2297 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 16/24] 127.0.0.1 () {74 vars in 1477 bytes} [Sat Jun 13 22:51:20 2020] GET /user/register/ => generated 3080 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 17/25] 127.0.0.1 () {70 vars in 1337 bytes} [Sat Jun 13 22:51:49 2020] GET / => generated 2697 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 18/26] 127.0.0.1 () {54 vars in 915 bytes} [Sat Jun 13 23:01:17 2020] GET /api/jsonws/invoke => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 19/27] 127.0.0.1 () {70 vars in 1337 bytes} [Sat Jun 13 23:02:59 2020] GET / => generated 2697 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 20/28] 127.0.0.1 () {68 vars in 1244 bytes} [Sat Jun 13 23:13:20 2020] GET / => generated 2297 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 21/29] 127.0.0.1 () {68 vars in 1181 bytes} [Sat Jun 13 23:13:25 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 22/30] 127.0.0.1 () {52 vars in 786 bytes} [Sat Jun 13 23:28:32 2020] GET /robots.txt => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 9/31] 127.0.0.1 () {56 vars in 1037 bytes} [Sat Jun 13 23:28:34 2020] GET / => generated 2297 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 10/32] 127.0.0.1 () {54 vars in 753 bytes} [Sat Jun 13 23:28:45 2020] GET /favicon.ico => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 23/33] 127.0.0.1 () {70 vars in 1371 bytes} [Sat Jun 13 23:33:10 2020] GET / => generated 2697 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 31184|app: 0|req: 24/34] 127.0.0.1 () {68 vars in 1286 bytes} [Sat Jun 13 23:33:13 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 31183|app: 0|req: 11/35] 127.0.0.1 () {68 vars in 1315 bytes} [Sat Jun 13 23:33:18 2020] GET / => generated 2697 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 25/36] 127.0.0.1 () {70 vars in 1337 bytes} [Sat Jun 13 23:33:56 2020] GET / => generated 2697 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 31184|app: 0|req: 26/37] 127.0.0.1 () {70 vars in 1362 bytes} [Sat Jun 13 23:34:37 2020] GET / => generated 2697 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 31184)...
+Gracefully killing worker 1 (pid: 31183)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 23:37:48 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x561fee2c0d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561fee2c0d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 3165, cores: 2)
+spawned uWSGI worker 2 (pid: 3167, cores: 2)
+[pid: 3165|app: 0|req: 1/1] 127.0.0.1 () {70 vars in 1362 bytes} [Sat Jun 13 23:37:50 2020] GET / => generated 2791 bytes in 65 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 3167|app: 0|req: 1/2] 127.0.0.1 () {70 vars in 1337 bytes} [Sat Jun 13 23:38:41 2020] GET / => generated 2791 bytes in 62 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 3165|app: 0|req: 2/3] 127.0.0.1 () {72 vars in 1424 bytes} [Sat Jun 13 23:38:56 2020] GET /user/home/ => generated 13967 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 3165)...
+Gracefully killing worker 2 (pid: 3167)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 23:40:45 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x56538d074d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56538d074d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 4167, cores: 2)
+spawned uWSGI worker 2 (pid: 4168, cores: 2)
+[pid: 4168|app: 0|req: 1/1] 127.0.0.1 () {72 vars in 1424 bytes} [Sat Jun 13 23:40:46 2020] GET /user/home/ => generated 13994 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 4167|app: 0|req: 1/2] 127.0.0.1 () {72 vars in 1424 bytes} [Sat Jun 13 23:43:11 2020] GET /user/home/ => generated 13994 bytes in 64 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 4168|app: 0|req: 2/3] 127.0.0.1 () {66 vars in 1213 bytes} [Sat Jun 13 23:53:26 2020] GET / => generated 2418 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 4168|app: 0|req: 3/4] 127.0.0.1 () {68 vars in 1277 bytes} [Sat Jun 13 23:53:52 2020] GET /user/login/ => generated 2832 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 4168|app: 0|req: 4/5] 127.0.0.1 () {74 vars in 1486 bytes} [Sat Jun 13 23:54:14 2020] POST /user/login/ => generated 63 bytes in 157 msecs (HTTP/1.1 200) 7 headers in 452 bytes (1 switches on core 1)
+[pid: 4168|app: 0|req: 5/6] 127.0.0.1 () {68 vars in 1386 bytes} [Sat Jun 13 23:54:17 2020] GET / => generated 2818 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 4168|app: 0|req: 6/7] 127.0.0.1 () {68 vars in 1395 bytes} [Sat Jun 13 23:54:21 2020] GET /user/home/ => generated 13994 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 4168|app: 0|req: 7/8] 127.0.0.1 () {70 vars in 1426 bytes} [Sat Jun 13 23:54:37 2020] GET /user/home/ => generated 13994 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 4167)...
+Gracefully killing worker 2 (pid: 4168)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jun 13 23:55:54 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x558a31a75d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x558a31a75d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 8950, cores: 2)
+spawned uWSGI worker 2 (pid: 8951, cores: 2)
+[pid: 8950|app: 0|req: 1/1] 127.0.0.1 () {70 vars in 1426 bytes} [Sat Jun 13 23:55:58 2020] GET /user/home/ => generated 13999 bytes in 61 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 1/2] 127.0.0.1 () {68 vars in 1378 bytes} [Sat Jun 13 23:56:25 2020] GET /user/home/ => generated 13999 bytes in 71 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 2/3] 127.0.0.1 () {68 vars in 1391 bytes} [Sat Jun 13 23:56:41 2020] GET /user/home/ => generated 13999 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 3/4] 127.0.0.1 () {64 vars in 1130 bytes} [Sat Jun 13 23:56:54 2020] GET / => generated 2418 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 4/5] 127.0.0.1 () {60 vars in 1064 bytes} [Sat Jun 13 23:56:58 2020] GET /user/login/ => generated 2832 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 5/6] 127.0.0.1 () {68 vars in 1344 bytes} [Sat Jun 13 23:57:12 2020] POST /user/login/ => generated 63 bytes in 136 msecs (HTTP/1.1 200) 7 headers in 452 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 6/7] 127.0.0.1 () {60 vars in 1173 bytes} [Sat Jun 13 23:57:13 2020] GET / => generated 2818 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 8950|app: 0|req: 2/8] 127.0.0.1 () {60 vars in 1182 bytes} [Sat Jun 13 23:57:16 2020] GET /user/home/ => generated 13999 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 7/9] 127.0.0.1 () {62 vars in 1213 bytes} [Sat Jun 13 23:58:09 2020] GET /user/home/ => generated 13999 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 8/10] 127.0.0.1 () {68 vars in 1405 bytes} [Sun Jun 14 00:04:59 2020] GET /user/home/ => generated 13999 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 8950|app: 0|req: 3/11] 127.0.0.1 () {68 vars in 1385 bytes} [Sun Jun 14 00:07:19 2020] GET / => generated 2818 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 8950|app: 0|req: 4/12] 127.0.0.1 () {68 vars in 1395 bytes} [Sun Jun 14 00:07:40 2020] GET /user/home/ => generated 13999 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 9/13] 127.0.0.1 () {68 vars in 1405 bytes} [Sun Jun 14 00:08:12 2020] GET /user/home/ => generated 13999 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 10/14] 127.0.0.1 () {68 vars in 1385 bytes} [Sun Jun 14 00:08:16 2020] GET / => generated 2818 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 11/15] 127.0.0.1 () {68 vars in 1385 bytes} [Sun Jun 14 00:08:36 2020] GET / => generated 2818 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 12/16] 127.0.0.1 () {68 vars in 1335 bytes} [Sun Jun 14 00:08:47 2020] GET / => generated 2818 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 13/17] 127.0.0.1 () {68 vars in 1345 bytes} [Sun Jun 14 00:09:02 2020] GET /user/home/ => generated 13999 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 14/18] 127.0.0.1 () {68 vars in 1335 bytes} [Sun Jun 14 00:09:27 2020] GET / => generated 2818 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 8950|app: 0|req: 5/19] 127.0.0.1 () {68 vars in 1345 bytes} [Sun Jun 14 00:10:30 2020] GET /user/home/ => generated 13999 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 15/20] 127.0.0.1 () {68 vars in 1350 bytes} [Sun Jun 14 00:11:07 2020] GET /user/get_user_data/ => generated 167 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 16/21] 127.0.0.1 () {68 vars in 1355 bytes} [Sun Jun 14 00:11:37 2020] GET /user/home/ => generated 13999 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 8951|app: 0|req: 17/22] 127.0.0.1 () {68 vars in 1335 bytes} [Sun Jun 14 00:11:39 2020] GET / => generated 2818 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 8951|app: 0|req: 18/23] 127.0.0.1 () {68 vars in 1314 bytes} [Sun Jun 14 00:14:08 2020] GET / => generated 2818 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 8950)...
+Gracefully killing worker 2 (pid: 8951)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jun 14 00:18:18 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x564c58e84d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x564c58e84d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 14005, cores: 2)
+spawned uWSGI worker 2 (pid: 14006, cores: 2)
+[pid: 14005|app: 0|req: 1/1] 127.0.0.1 () {68 vars in 1345 bytes} [Sun Jun 14 00:18:24 2020] GET /user/home/ => generated 13999 bytes in 67 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 14006|app: 0|req: 1/2] 127.0.0.1 () {58 vars in 1038 bytes} [Sun Jun 14 00:19:13 2020] GET / => generated 2418 bytes in 46 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 14006|app: 0|req: 2/3] 127.0.0.1 () {60 vars in 1142 bytes} [Sun Jun 14 00:19:19 2020] GET /user/login/ => generated 2832 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 14005|app: 0|req: 2/4] 127.0.0.1 () {68 vars in 1422 bytes} [Sun Jun 14 00:19:36 2020] POST /user/login/ => generated 63 bytes in 153 msecs (HTTP/1.1 200) 7 headers in 452 bytes (1 switches on core 1)
+[pid: 14006|app: 0|req: 3/5] 127.0.0.1 () {60 vars in 1251 bytes} [Sun Jun 14 00:19:38 2020] GET / => generated 2818 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 14006|app: 0|req: 4/6] 127.0.0.1 () {60 vars in 1260 bytes} [Sun Jun 14 00:19:41 2020] GET /user/home/ => generated 13999 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 14005)...
+Gracefully killing worker 2 (pid: 14006)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/uftp/MyTrojan/MyTrojan/deploy
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi_conf.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jun 14 00:20:30 2020] ***
+compiled with version: 7.5.0 on 13 June 2020 03:02:45
+os: Linux-5.3.0-1026-gcp #28~18.04.1-Ubuntu SMP Sat Jun 6 00:09:26 UTC 2020
+nodename: myweb
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/uftp/MyTrojan/MyTrojan/deploy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/uftp/MyTrojan/MyTrojan
+your processes number limit is 3748
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.9 (default, Apr 18 2020, 01:56:04)  [GCC 8.4.0]
+Python main interpreter initialized at 0x5647e91e5d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 250128 bytes (244 KB) for 4 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5647e91e5d90 pid: 12580 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 12580)
+spawned uWSGI worker 1 (pid: 15095, cores: 2)
+spawned uWSGI worker 2 (pid: 15096, cores: 2)
+[pid: 15096|app: 0|req: 1/1] 127.0.0.1 () {62 vars in 1291 bytes} [Sun Jun 14 00:20:35 2020] GET /user/home/ => generated 14052 bytes in 70 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 1/2] 127.0.0.1 () {62 vars in 1336 bytes} [Sun Jun 14 00:20:46 2020] GET /user/get_user_data/ => generated 167 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 2/3] 127.0.0.1 () {70 vars in 1362 bytes} [Sun Jun 14 00:33:30 2020] GET / => generated 2871 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 2/4] 127.0.0.1 () {54 vars in 829 bytes} [Sun Jun 14 00:39:11 2020] GET / => generated 2471 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 3/5] 127.0.0.1 () {56 vars in 1168 bytes} [Sun Jun 14 00:57:12 2020] GET / => generated 2471 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 3/6] 127.0.0.1 () {66 vars in 1283 bytes} [Sun Jun 14 01:00:59 2020] GET / => generated 2871 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 4/7] 127.0.0.1 () {68 vars in 1345 bytes} [Sun Jun 14 01:01:07 2020] GET /user/home/ => generated 14052 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 5/8] 127.0.0.1 () {68 vars in 1350 bytes} [Sun Jun 14 01:01:50 2020] GET /user/get_user_data/ => generated 167 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 142 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 6/9] 127.0.0.1 () {52 vars in 961 bytes} [Sun Jun 14 01:04:50 2020] GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 7/10] 127.0.0.1 () {54 vars in 1048 bytes} [Sun Jun 14 01:29:09 2020] GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 8/11] 127.0.0.1 () {54 vars in 813 bytes} [Sun Jun 14 02:03:42 2020] GET /favicon.ico => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 9/12] 127.0.0.1 () {52 vars in 739 bytes} [Sun Jun 14 02:19:12 2020] GET /robots.txt => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 4/13] 127.0.0.1 () {52 vars in 737 bytes} [Sun Jun 14 02:19:13 2020] GET /humans.txt => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 10/14] 127.0.0.1 () {52 vars in 726 bytes} [Sun Jun 14 02:19:14 2020] GET /ads.txt => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 5/15] 127.0.0.1 () {52 vars in 705 bytes} [Sun Jun 14 02:19:15 2020] GET / => generated 2471 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 11/16] 127.0.0.1 () {58 vars in 1013 bytes} [Sun Jun 14 03:45:40 2020] GET / => generated 2471 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 12/17] 127.0.0.1 () {56 vars in 1106 bytes} [Sun Jun 14 05:30:20 2020] GET /blog/expressvpn-rolls-out-apps-and-browser-extensions-in-over-a-dozen-languages/?redir=www.exp2redir2.com => generated 3939 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 13/18] 127.0.0.1 () {56 vars in 900 bytes} [Sun Jun 14 05:30:23 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 6/19] 127.0.0.1 () {52 vars in 809 bytes} [Sun Jun 14 05:30:25 2020] GET / => generated 2471 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 7/20] 127.0.0.1 () {52 vars in 816 bytes} [Sun Jun 14 05:30:27 2020] GET /cn => generated 3939 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 14/21] 127.0.0.1 () {52 vars in 852 bytes} [Sun Jun 14 05:30:30 2020] GET /support/troubleshooting => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 15/22] 127.0.0.1 () {52 vars in 830 bytes} [Sun Jun 14 05:30:32 2020] GET /support/troubleshooting/china-status => generated 3939 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 16/23] 127.0.0.1 () {52 vars in 1285 bytes} [Sun Jun 14 05:30:34 2020] GET /support/troubleshooting/china-status/?utm_campaign=china_get_update_ios&utm_content=download_latest_app&utm_medium=apps&utm_term=v7.3.7_p_CN_1&utm_source=rotating_message_v3_ios&redir=www.ciibdes.com&redir_t=bc5c74190c2766c97a0b7876855fee2f => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 8/24] 127.0.0.1 () {56 vars in 985 bytes} [Sun Jun 14 05:30:39 2020] GET /vpn-software/vpn-windows => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 9/25] 127.0.0.1 () {56 vars in 1132 bytes} [Sun Jun 14 07:20:24 2020] GET /blog/expressvpn-rolls-out-apps-and-browser-extensions-in-over-a-dozen-languages/?redir=www.exp2redir2.com => generated 3939 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 17/26] 127.0.0.1 () {56 vars in 956 bytes} [Sun Jun 14 07:20:29 2020] GET /favicon.ico => generated 3939 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 10/27] 127.0.0.1 () {52 vars in 804 bytes} [Sun Jun 14 07:20:30 2020] GET / => generated 2471 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 18/28] 127.0.0.1 () {52 vars in 818 bytes} [Sun Jun 14 07:20:32 2020] GET /cn => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 19/29] 127.0.0.1 () {52 vars in 841 bytes} [Sun Jun 14 07:20:40 2020] GET /support/troubleshooting => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 20/30] 127.0.0.1 () {52 vars in 882 bytes} [Sun Jun 14 07:20:52 2020] GET /support/troubleshooting/china-status => generated 3939 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 11/31] 127.0.0.1 () {52 vars in 1284 bytes} [Sun Jun 14 07:21:00 2020] GET /support/troubleshooting/china-status/?utm_campaign=china_get_update_ios&utm_content=download_latest_app&utm_medium=apps&utm_term=v7.3.7_p_CN_1&utm_source=rotating_message_v3_ios&redir=www.ciibdes.com&redir_t=bc5c74190c2766c97a0b7876855fee2f => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 21/32] 127.0.0.1 () {56 vars in 985 bytes} [Sun Jun 14 07:21:09 2020] GET /vpn-software/vpn-windows => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 22/33] 127.0.0.1 () {66 vars in 1240 bytes} [Sun Jun 14 10:04:18 2020] GET / => generated 2471 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 23/34] 127.0.0.1 () {64 vars in 1155 bytes} [Sun Jun 14 10:04:19 2020] GET /favicon.ico => generated 3939 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 137 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 24/35] 127.0.0.1 () {54 vars in 894 bytes} [Sun Jun 14 11:22:23 2020] GET / => generated 2471 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 25/36] 127.0.0.1 () {66 vars in 1240 bytes} [Sun Jun 14 11:50:50 2020] GET / => generated 2471 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 26/37] 127.0.0.1 () {68 vars in 1271 bytes} [Sun Jun 14 11:50:54 2020] GET / => generated 2471 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 12/38] 127.0.0.1 () {68 vars in 1271 bytes} [Sun Jun 14 11:51:47 2020] GET / => generated 2471 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 13/39] 127.0.0.1 () {66 vars in 1240 bytes} [Sun Jun 14 11:52:00 2020] GET / => generated 2471 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 14/40] 127.0.0.1 () {68 vars in 1271 bytes} [Sun Jun 14 11:52:09 2020] GET / => generated 2471 bytes in 2 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 27/41] 127.0.0.1 () {70 vars in 1318 bytes} [Sun Jun 14 11:53:20 2020] GET / => generated 2471 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 15/42] 127.0.0.1 () {70 vars in 1293 bytes} [Sun Jun 14 11:54:21 2020] GET / => generated 2471 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 15096|app: 0|req: 28/43] 127.0.0.1 () {72 vars in 1363 bytes} [Sun Jun 14 11:54:51 2020] GET /user/register/ => generated 3254 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 29/44] 127.0.0.1 () {72 vars in 1396 bytes} [Sun Jun 14 11:55:43 2020] GET /user/login/ => generated 2885 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 15095|app: 0|req: 16/45] 127.0.0.1 () {78 vars in 1515 bytes} [Sun Jun 14 11:56:40 2020] POST /user/login/ => generated 63 bytes in 376 msecs (HTTP/1.1 200) 7 headers in 452 bytes (1 switches on core 1)
+[pid: 15096|app: 0|req: 30/46] 127.0.0.1 () {72 vars in 1443 bytes} [Sun Jun 14 11:56:42 2020] GET /user/register/ => generated 0 bytes in 15 msecs (HTTP/1.1 302) 6 headers in 174 bytes (1 switches on core 1)
+[pid: 15095|app: 0|req: 17/47] 127.0.0.1 () {72 vars in 1435 bytes} [Sun Jun 14 11:56:42 2020] GET /user/home/ => generated 14052 bytes in 180 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)

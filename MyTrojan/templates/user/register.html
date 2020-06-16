@@ -1,0 +1,33 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block title %}
+    Register
+{% endblock %}
+{% block css %}
+    <link rel="stylesheet" href="{% static "css/user/register.css" %}">
+{% endblock %}
+{% block contain %}
+    <div class="row-cols-1" style="position: relative;top: 50%;transform: translateY(-50%)">
+        <form class="form-register" method="post" data="{% url "user:register" %}">
+            <!--            <img class="mb-4" src="/" alt="" width="72" height="72">-->
+            {% csrf_token %}
+            <h1 class="h3 mb-3 font-weight-normal text-center">Register</h1>
+            <input type="text" id="inputEmail" class="form-control" placeholder="Email address" name="email" required
+                   autofocus>
+            <input type="text" id="inputUsername" class="form-control" placeholder="Account" name="username" required
+                   autofocus>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password"
+                   required>
+            <input type="password" id="repeatPassword" class="form-control" placeholder="Repeat Password"
+                   name="repeat_password" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+        </form>
+    </div>
+{% endblock %}
+{% block js %}
+    <script>
+        var USER_CHECK_ACCOUNT = 'https://{{ request.META.HTTP_HOST }}{% url 'user:verify_username' "replace"%}';
+        var USER_CHECK_EMAIL = 'https://{{ request.META.HTTP_HOST }}{% url 'user:verify_email' "replace"%}';
+    </script>
+    <script src="{% static "js/user/register.js" %}"></script>
+{% endblock %}

@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <title>{% block title %}
+        Trojan
+    {% endblock %}</title>
+    <link rel="stylesheet" href="{% static "css/base/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/base/base.css" %}">
+    <link rel="stylesheet" href="{% static "css/index/reset.css" %}">
+    {% block css %}
+
+    {% endblock %}
+</head>
+<body {% block body_tag %}
+
+{% endblock %}>
+<div class="container-fluid m-0 p-0" style="height: 100%">
+    <div class="row-cols-1">
+        <nav class="navbar navbar-expand-md navbar-expand-lg bg-dark navbar-dark">
+            <a class="navbar-brand font-italic font-weight-bolder" href="{% url "index" %}">Trojan</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    {% if user.is_anonymous %}
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-light" href="{% url "user:login" %}">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-light" href="{% url "user:register" %}">Register</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-light" href="{% url "user:home" %}">home</a>
+                        </li>
+                        {% if user.is_staff %}
+                            <li class="nav-item">
+                                <a class="nav-link font-weight-light" href="/admin/">manage</a>
+                            </li>
+                        {% endif %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle font-weight-bold" href="#" id="navbardrop"
+                               data-toggle="dropdown"
+                               style="font-size: large">
+                                {{ user.username }}
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{% url "user:logout" %}">log out</a>
+                            </div>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+    {% block contain %}
+
+    {% endblock %}
+</div>
+<script>
+    var json_data = JSON.parse('{{ json_data|default:'{}' }}');
+</script>
+<script src="{% static "js/base/jquery-3.5.1.min.js" %}"></script>
+<script src="{% static "js/base/bootstrap.min.js" %}"></script>
+<script src="{% static "js/base/base.js" %}"></script>
+{#<script src="{% static "js/base/message.js" %}"></script>#}
+<script src="{% static "js/base/msg.js" %}"></script>
+{% block js %}
+
+{% endblock %}
+</body>
+</html>

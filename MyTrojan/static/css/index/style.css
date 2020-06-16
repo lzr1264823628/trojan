@@ -1,0 +1,29 @@
+canvas {
+    background: #000;
+    bottom: 0;
+    box-shadow: 0 0 0 10px #222,
+    0 30px 30px -20px #000;
+    left: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+}
+
+@keyframes animate {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+canvas {
+    animation: animate ease 2s;
+}

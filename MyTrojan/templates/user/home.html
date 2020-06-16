@@ -1,0 +1,261 @@
+{% extends "base/base.html" %}
+{% load custom_filter %}
+{% load static %}
+{% block title %}
+    Home
+{% endblock %}
+{% block body_tag %}
+    style="background-image: url('{% static "img/1.jpg" %}');"
+{% endblock %}
+{% block contain %}
+    <div class="row mt-3">
+        <div class="col">
+            <div class="jumbotron text-black-50 jb">
+                <h1 class="display-4 font-italic">Happy Every Day</h1>
+                <p>Free access to the Internet<br></p>
+            </div>
+        </div>
+    </div>
+    <div class="row data-row">
+        <div class="col-lg-4 mb-3">
+            <div class="card m-2 bg-dark" style=" height: 100%;">
+                <div class="card-body"><h3 class="text-capitalize text-white font-weight-light card-title font-italic">Data</h3>
+                    <div class="table-responsive align-items-stretch">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>项</th>
+                                <th>值</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>quota</td>
+                                <td id="quota">{{ user.quota|to_mb }}{% if user.quota != -1 %}M{% endif %}</td>
+                            </tr>
+                            <tr>
+                                <td>upload</td>
+                                <td id="upload">{{ user.upload|to_mb }}M</td>
+                            </tr>
+                            <tr>
+                                <td>download</td>
+                                <td id="download">{{ user.download|to_mb }}M</td>
+                            </tr>
+                            <tr>
+                                <td>left</td>
+                                <td id="left">{{ left|to_mb }}{% if user.quota != -1 %}M{% endif %}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div role="group" class="btn-group">
+                        <button class="btn btn-primary btn_reload" type="button">同步</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 mb-3">
+            <div class="card m-2 bg-dark" style="height: 100%">
+                <div class="card-body"><h4 class="card-title text-white font-weight-light font-italic">Chart</h4>
+                    <canvas id="myChart" class="m-2"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 mb-3">
+            <div class="card m-2 bg-dark" style="height: 100%">
+                <div class="card-body"><h4 class="card-title text-white font-weight-light font-italic">User</h4>
+                    <div class="table-responsive mb-2">
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>username</td>
+                                <td id="username">{{ user.username }}</td>
+                            </tr>
+                            <tr>
+                                <td>email</td>
+                                <td id="email">{{ user.email }}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <button class="btn btn-primary btn_change_password " data-toggle="modal" type="button"
+                            data-target="#change_password" style="">修改密码
+                    </button>
+                    <button class="btn btn-primary btn_change_password " data-toggle="modal" type="button" id="Q_btn"
+                            style="">生成链接
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div role="dialog" tabindex="-1" class="modal fade show" id="change_password">
+        <div class="modal-dialog" role="document" style="top: 15.39%">
+            <div class="modal-content shadow-lg bg-dark">
+                <div class="modal-header" style="border: 0;">
+                    <h3 class="modal-title text-warning font-italic font-weight-bold">Change your password</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        {% csrf_token %}
+                        <label class="font-weight-bold text-warning">原密码</label><input type="password"
+                                                                                       class="form-control mb-2"
+                                                                                       name="old_password"
+                                                                                       placeholder="Old Password"
+                                                                                       autofocus required
+                                                                                       style="background-color: rgb(40,40,40);"
+                    /><label class="font-weight-bold text-warning">新密码</label><input type="password"
+                                                                                     class="form-control mb-2"
+                                                                                     name="new_password"
+                                                                                     placeholder="New Passowrd" required
+                                                                                     style="background-color: rgb(40,40,40);"
+                    /><label class="font-weight-bold text-warning">确认密码</label><input type="password"
+                                                                                      class="form-control"
+                                                                                      placeholder="Repeat Password"
+                                                                                      name="repeate_password" required
+                                                                                      style="background-color: rgb(40,40,40);"
+                    /></form>
+                </div>
+                <div class="modal-footer" style="border: 0;">
+                    <button class="btn btn-light border-0 text-white-50" type="button" data-dismiss="modal"
+                            style="background-color: rgb(58,62,67);">Close
+                    </button>
+                    <button class="btn btn-primary border-0" type="submit" style="background-color: rgb(28,35,42);"
+                            id="submit_change_password">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div role="dialog" tabindex="-1" class="modal fade show" id="Q_contain">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark">
+                <div class="modal-header border-0">
+                    <h3 class="modal-title text-white">分享</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row pl-4 pr-4">
+                        <div class="col-lg-9">
+                            <div class="row">
+                                <div class="col" style="padding: 0;">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"
+                                                  style="border-radius: .25rem 0 0 0;">密码</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="Q_password" placeholder="输入正确的密码"/>
+                                        <div class="input-group-append"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" style="padding: 0;">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"
+                                                                               style="border-radius: 0 0 0 .25rem;">用户</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="Q_username"/>
+                                        <div class="input-group-append"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" style="padding:0;">
+                            <button class="btn btn-primary" id="Q_generate" type="button"
+                                    style="width: 100%;height: 100%;border: 1px">
+                                生成
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="/*height: 200px;*/">
+                            <div id="Q" style="height: 300px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <div class="input-group">
+                        <div class="input-group-prepend"></div>
+                        <input type="text" id="Q_url" class="form-control" readonly/>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" id="Q_copy" type="button">Copy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+{% block css %}
+    <link rel="stylesheet" href="{% static "css/home/home.css" %}">
+    <style>
+        #Q img {
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #Q_username, #Q_password {
+            border-collapse: collapse;
+        }
+
+        #Q_username, #Q_password :focus {
+            /*color: #495057;*/
+            /* background-color: #fff; */
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 0 0
+        }
+    </style>
+{% endblock %}
+{% block js %}
+    <script src="{% static "js/base/qrcode.min.js" %}"></script>
+    <script src="{% static "js/base/Chart.js" %}"></script>
+    <script src="{% static "js/home/home.js" %}"></script>
+    <script>
+        var USER_GET_URL = 'https://{{ request.META.HTTP_HOST }}{% url 'user:get_user_data'%}';
+        var USER_CHANGE_PASSWORD = 'https://{{ request.META.HTTP_HOST }}{% url 'user:change_password'%}';
+        var USER_NAME = '{{ user.username }}';
+        var config = {
+            type: 'doughnut',
+            // type: 'pie',
+            data: {
+                datasets: [{
+                    data: [
+                        {{ user.upload|to_mb }},
+                        {{ user.download|to_mb }},
+                        {% if left != 'Infinite' %}
+                            {{ left }}
+                        {% endif %}
+                    ],
+                    backgroundColor: [
+                        "#ffa800",
+                        "#15aa1c",
+                        {% if left != 'Infinite' %}
+                            "#dcdcdc",
+                        {% endif %}
+                    ],
+                    label: 'Dataset 1',
+                    weight: 0.1,
+                }],
+                labels: [
+                    'upload',
+                    'download',
+                    {% if left != 'Infinite' %}
+                            'left',
+                        {% endif %}
+                ]
+            },
+            options: {
+                responsive: true,
+                animation: {animateScale: true},
+                maintainAspectRatio: false
+            }
+        };
+    </script>
+{% endblock %}

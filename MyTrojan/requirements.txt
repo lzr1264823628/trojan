@@ -1,0 +1,12 @@
+asgiref==3.2.7
+Django==3.0.7
+django-redis==4.12.1
+get==2019.4.13
+mysqlclient==1.4.6
+post==2019.4.13
+public==2019.4.13
+pytz==2020.1
+query-string==2019.4.13
+redis==3.5.3
+request==2019.4.13
+sqlparse==0.3.1

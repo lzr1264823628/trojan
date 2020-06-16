@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="71913338-9822-47f7-9b8b-501f24c7860f" name="FANICK_REMOTE" url="http:///">
+        <fileTransfer host="35.231.209.238" port="22" rootFolder="/home/uftp/MyTrojan" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
