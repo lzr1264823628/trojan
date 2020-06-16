@@ -9,3 +9,4 @@ query-string==2019.4.13
 redis==3.5.3
 request==2019.4.13
 sqlparse==0.3.1
+pymysql==0.9.3
